@@ -6,11 +6,11 @@ lampadaB = False
 
 for numero in numeros:
     if numero == "1":
-        if lampadaA == False:
+        if lampadaA == False: # if not lampadaA;
             lampadaA = True
         elif lampadaA == True:
             lampadaA = False
-            
+
     if numero == "2":
         if lampadaA == True:
             lampadaA = False
